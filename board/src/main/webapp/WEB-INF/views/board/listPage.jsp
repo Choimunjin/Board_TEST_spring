@@ -62,7 +62,7 @@
 	</c:forEach>
 	
 	<c:if test="${next}">
-		<span>[<a href="/board/listPage?num=$[endPageNum + 1}">다음</a>]</span>
+		<span>[<a href="/board/listPage?num=${endPageNum + 1}">다음</a>]</span>
 	</c:if>
 </div>
 </body>
